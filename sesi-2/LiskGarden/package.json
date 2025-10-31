@@ -1,0 +1,28 @@
+{
+  "name": "liskgarden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@types/node": "^22.18.13",
+    "chai": "^6.2.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.9",
+    "typescript": "~5.8.0",
+    "viem": "^2.38.5",
+    "vitest": "^4.0.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.3"
+  }
+}
